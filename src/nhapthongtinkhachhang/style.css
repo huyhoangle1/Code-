@@ -1,0 +1,153 @@
+@font-face {
+    font-family: 'BAHNSCHRIFT';
+    src: url('../../public/font/BAHNSCHRIFT\ 1.TTF') format('truetype');
+}
+
+@font-face {
+    font-family: 'moon_get';
+    src: url('../../public/font/moon_get-Heavy.ttf') format('truetype');
+}
+.header {
+    margin-top: 2rem;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.form-container {
+    min-width: 300px;
+    width: 90vw;
+    max-width: 400px;
+    margin-top: 5vh;
+    margin-top: 4rem;
+}
+
+.image-header {
+    height: 7rem;
+}
+
+.welcome-text {
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-align: justify;
+    margin-top: 5vh;
+    word-spacing: 5px;
+    margin-top: 4rem;
+}
+
+.skeleton-image {
+    height: 6rem;
+    margin-top: 5vh;
+    margin-top: 4rem;
+}
+
+.container {
+    justify-content: center;
+    max-height: 900px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.phone-text {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.phone-text-2 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-top: 20px
+}
+
+.text-input {
+    border: 2px solid black;
+    width: 100%;
+    height: 4rem;
+    font-size: 20px;
+    margin-top: 1rem;
+}
+
+.submit-button {
+    text-decoration: none;
+    color: black;
+    min-width: 100px;
+    font-weight: 800;
+    font-size: 1.5rem
+}
+
+.float-text {
+    font-size: 1.3rem;
+    font-family: "moon_get";
+    color: #E92B62;
+    margin-left: 8px;
+    margin-top: -4px;
+    position: absolute;
+}
+
+.submit-container {
+    width: 20px;
+    border-bottom: 2px solid black;
+}
+
+.submit-wrap {
+    cursor: pointer;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.submit-wrap:hover {
+    .submit-container {
+        width: 70px;
+        border-bottom: 2px solid #E92B62;
+        transition: all 0.8s;
+    }
+
+    .submit-button {
+        margin-top: 1rem;
+        color: #E92B62;
+        transition: all 0.8s;
+        border-bottom: 2px solid black;
+    }
+}
+
+@media (max-width: 500px) {
+
+    /* Styles for mobile devices */
+    html {
+        height: 100%;
+        font-size: 94% !important;
+        ;
+    }
+
+    .image-header {
+        height: 30vw !important;
+    }
+
+    .skeleton-image {
+        height: 26vw !important;
+        margin-top: 4vh;
+    }
+
+    .welcome-text {
+        font-size: 1.1rem;
+        margin-top: 5vh;
+    }
+    .text-input {
+        border: 2px solid black;
+        width: 100%;
+        height: 2.5rem;
+        font-size: 20px;
+    }
+    .form-container {
+        margin-top: 4vh;
+    }
+}

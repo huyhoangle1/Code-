@@ -1,0 +1,118 @@
+@font-face {
+    font-family: 'BAHNSCHRIFT';
+    src: url('../../public/font/BAHNSCHRIFT\ 1.TTF') format('truetype');
+}
+
+@font-face {
+    font-family: 'moon_get';
+    src: url('../../public/font/moon_get-Heavy.ttf') format('truetype');
+}
+
+.header {
+    margin-top: 2rem;
+    margin-bottom: 2rem
+}
+
+.header h1 {
+    margin: 0;
+}
+
+/* .form-container {
+    min-width: 300px;
+} */
+
+.image-header {
+    height: 7rem;
+}
+
+.welcome-text {
+    font-size: 1.2rem;
+    font-weight: 500;
+    max-width: 70vw;
+    font-family: "BAHNSCHRIFT";
+    margin-bottom: 0 !important;
+    word-spacing: 5px;
+}
+
+.image-footer {
+    height: 5rem;
+    max-width: 82vw;
+}
+
+.skeleton-image {
+    height: 7rem;
+    margin-bottom: 4rem;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.float-text {
+    font-size: 1.3rem;
+    font-family: "moon_get";
+    font-weight: 900;
+    color: #E92B62;
+}
+
+.discount-text {
+    font-size: 3.4rem;
+    font-weight: 900;
+    font-family: "moon_get";
+    color: #E92B62;
+}
+
+.water-text {
+    font-size: 6rem;
+    font-weight: 900;
+    font-family: 'moon_get';
+    color: #E92B62;
+    margin-top: -18px;
+}
+
+.submit-container {
+    width: 20px;
+    border-bottom: 2px solid black;
+}
+
+/* @media only screen and (max-width: 400px) {
+
+    /* Styles for mobile devices */
+    /* html {
+        height: 100%;
+        font-size: 94% !important;
+    } */
+
+    /* .welcome-text {
+        font-size: 1.1rem;
+        font-weight: 500;
+        max-width: 70vw;
+        font-family: "BAHNSCHRIFT";
+        margin-bottom: 0 !important;
+    }
+
+    .image-header {
+        height: 30vw !important;
+    }
+
+    .discount-text {
+        font-size: 2.5rem !important;
+    }
+
+    .water-text {
+        font-size: 4rem;
+        margin-top: -18px;
+    }
+
+    .float-text {
+        font-size: 1.2rem;
+    }
+
+    .image-footer {
+        margin-top: 2vh;
+    } */

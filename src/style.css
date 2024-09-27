@@ -1,0 +1,19 @@
+.chuc-nang{
+  width: 100%;
+}
+.xuat-excel{
+  width: 80%;
+  float: left;
+}
+.tim-kiem{
+  width: 100%;
+}
+.button-excel{
+  float: right;
+  margin-right: 1rem;
+}
+@media (max-width: 500px) {
+  .xuat-excel{
+    width: 31%;
+  }
+}
